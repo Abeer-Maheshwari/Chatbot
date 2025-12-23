@@ -2,8 +2,7 @@
 
 **Author**: Abeer Maheshwari
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)  
-[![Groq](https://img.shields.io/badge/Powered%20by-Groq-brightgreen)](https://groq.com)
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)  [![Groq](https://img.shields.io/badge/Powered%20by-Groq-brightgreen)](https://groq.com)
 
 ##
 An **AI chatbot** built using the Groq API with a variety of models to choose from.
