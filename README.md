@@ -6,7 +6,7 @@
 [![Groq](https://img.shields.io/badge/Powered%20by-Groq-brightgreen)](https://groq.com)
 
 ##
-An **AI-powered chatbot** built using the Groq API with a variety of models to choose from.
+An **AI chatbot** built using the Groq API with a variety of models to choose from.
 
 This project displays a basic GUI chatbot that interacts with Groq's high-performance AI models.
 
