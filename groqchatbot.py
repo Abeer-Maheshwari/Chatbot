@@ -4,11 +4,11 @@ from groq import Groq
 # === Configuration ===
 st.set_page_config(page_title="Groq AI Chatbot", page_icon="🤖", layout="centered")
 
-# Replace with your Groq API key (or use secrets for production)
+# Replace with your Groq API key
 API_KEY = "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"  # ← Put your key here
 client = Groq(api_key=API_KEY)
 
-# List of available Groq models (as of late 2025)
+# List of available Groq models
 GROQ_MODELS = {
     "Llama 3.3 70B (Versatile)": "llama-3.3-70b-versatile",
     "Llama 3.1 70B (Versatile)": "llama3-70b-8192",
@@ -52,7 +52,7 @@ if "messages" not in st.session_state:
     st.session_state.messages = [SYSTEM_PROMPT]
 
 # === Main App ===
-st.title("🤖 Groq AI Chatbot")
+st.title("Groq AI Chatbot")
 st.write("Chat with powerful open-source models powered by Groq's ultra-fast inference!")
 
 # Display chat history
@@ -84,4 +84,5 @@ if user_input := st.chat_input("Type your message here..."):
                 response = "Sorry, something went wrong."
 
     # Append assistant response
+
     st.session_state.messages.append({"role": "assistant", "content": response})
